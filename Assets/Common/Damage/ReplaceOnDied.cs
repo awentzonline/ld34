@@ -8,6 +8,10 @@ namespace FloppyA.Damage {
 		public bool deepCopyTransform = false;
 
 		public void OnDied(DamageInfo damageInfo) {
+			if (replacementPrefab == null) {
+				Destroy (gameObject);
+				return;
+			}
 			GameObject replacement = Instantiate(replacementPrefab, transform.position, transform.rotation) as GameObject;
 			if (deepCopyTransform) {
 				CopyTransformsRecurse(transform, replacement.transform);

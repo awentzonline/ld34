@@ -8,7 +8,11 @@ namespace FloppyA.Damage {
 		public float maxHealth = 100.0f;
 		float health = 0.0f;
 		bool hasDied = false;
-		
+
+		void Start() {
+			health = maxHealth;
+		}
+
 		public void Damage(float amount) {
 			if (!hasDied) {
 				health -= amount;
