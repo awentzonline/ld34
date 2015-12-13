@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 480524}
   - 95: {fileID: 9569788}
   - 136: {fileID: 13699800}
+  - 114: {fileID: 11454164}
   m_Layer: 0
   m_Name: baby0
   m_TagString: Untagged
@@ -1057,6 +1058,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11454164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6793b169dc51e4c5296fb2abd297415a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &13699800
 CapsuleCollider:
   m_ObjectHideFlags: 1

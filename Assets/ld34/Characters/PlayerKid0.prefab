@@ -524,6 +524,7 @@ GameObject:
   - 4: {fileID: 480276}
   - 95: {fileID: 9532910}
   - 136: {fileID: 13618586}
+  - 114: {fileID: 11480736}
   m_Layer: 0
   m_Name: kid0
   m_TagString: Untagged
@@ -1042,7 +1043,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 135650}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.49019837, y: 4.7828622e-17, z: -2.15400958}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 480276}
@@ -1130,6 +1131,20 @@ MonoBehaviour:
   acceleration: 9
   jumpVelocity: 5
   jumpSound: {fileID: 8300000, guid: 665bd3201c60141b688383993f1cbc07, type: 3}
+--- !u!114 &11480736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 194374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6793b169dc51e4c5296fb2abd297415a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  throwThing: {fileID: 172720, guid: 5fbef6d03d3b84a3cb4ca255e3f9c185, type: 2}
+  throwVelocity: 10
+  throwOrigin: {fileID: 402850}
 --- !u!136 &13618586
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -1447,6 +1462,14 @@ Prefab:
       propertyPath: jumpSound
       value: 
       objectReference: {fileID: 8300000, guid: 665bd3201c60141b688383993f1cbc07, type: 3}
+    - target: {fileID: 0}
+      propertyPath: throwThing
+      value: 
+      objectReference: {fileID: 172720, guid: 5fbef6d03d3b84a3cb4ca255e3f9c185, type: 2}
+    - target: {fileID: 0}
+      propertyPath: throwVelocity
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 135650}

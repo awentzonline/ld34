@@ -36,6 +36,9 @@ namespace FloppyA.Music {
 		}
 
 		public void SetIntensity(MusicContext newContext) {
+			if ((int)newContext >= configMap.Count) {
+				return;
+			}
 			MusicContextConfig config = configMap [newContext];
 			if (config != null) {
 				config.snapshot.TransitionTo(config.transitionTime);
