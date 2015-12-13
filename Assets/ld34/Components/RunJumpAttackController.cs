@@ -5,21 +5,27 @@ public class RunJumpAttackController : MonoBehaviour {
 	public float maxVelocityZ = 5f;
 	public float acceleration = 5f;
 	public float jumpVelocity = 2f;
+	public AudioClip jumpSound;
 	Rigidbody rigidbody;
 	Animator animator;
+	AudioSource audioSource;
 
 	void Start () {
 		rigidbody = GetComponentInParent<Rigidbody> ();
 		animator = GetComponentInChildren<Animator> ();
+		audioSource = GetComponentInParent<AudioSource> ();
 	}
 	
 	void FixedUpdate () {
 		rigidbody.AddForce (transform.forward * acceleration);
 		Vector3 velocity = rigidbody.velocity;
 		animator.SetFloat ("Forward", velocity.z);
-		if (Input.GetKeyDown (KeyCode.Space)) {
+		if (Input.GetKeyDown (KeyCode.Space)) {	
 			velocity.y += jumpVelocity;
-			animator.SetTrigger("Jump");
+			animator.SetTrigger ("Jump");
+			if (jumpSound) {
+				audioSource.PlayOneShot (jumpSound);
+			}
 		}
 		if (Input.GetMouseButtonDown(0)) {
 			animator.SetBool ("Punching", true);

@@ -5,4 +5,4 @@ Library/*
 *.csproj
 *.userprefs
 *.sln
-
+*.swp

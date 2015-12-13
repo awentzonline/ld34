@@ -1126,16 +1126,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2994a060ade0847079591795aba5b1c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxVelocityZ: 3
+  maxVelocityZ: 5
   acceleration: 9
-  jumpVelocity: 4
+  jumpVelocity: 5
+  jumpSound: {fileID: 8300000, guid: 665bd3201c60141b688383993f1cbc07, type: 3}
 --- !u!136 &13618586
 CapsuleCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 194374}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f6e337aa3f9cb4eae8e207c8259391fa, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: .200000003
@@ -1419,7 +1420,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: maxVelocityZ
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: acceleration
@@ -1427,7 +1428,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: jumpVelocity
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_TagString
@@ -1437,6 +1438,15 @@ Prefab:
       propertyPath: m_Constraints
       value: 114
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: f6e337aa3f9cb4eae8e207c8259391fa,
+        type: 2}
+    - target: {fileID: 0}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 665bd3201c60141b688383993f1cbc07, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 135650}
