@@ -190,6 +190,7 @@ MonoBehaviour:
   - {fileID: 153510, guid: b9ea889e1eea14030892e2638f12c0b6, type: 2}
   - {fileID: 135650, guid: 7356c7cef58714329b3eba25eabfdd1e, type: 2}
   - {fileID: 167254, guid: 8dcded72082fc46caaf0f3c525da6926, type: 2}
+  - {fileID: 114288, guid: e021863019ffd4ffeb25026f69b57014, type: 2}
   currentObj: {fileID: 0}
   soundOfAge: {fileID: 8300000, guid: 06d0aadb603f7489eb4e918b21e70cdc, type: 3}
   soundOfYouth: {fileID: 8300000, guid: 0f6f69e1d8fa040498af66032dc77d7f, type: 3}
@@ -1282,9 +1283,17 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
+      propertyPath: models.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: soundOfAge
       value: 
       objectReference: {fileID: 8300000, guid: 06d0aadb603f7489eb4e918b21e70cdc, type: 3}
+    - target: {fileID: 0}
+      propertyPath: models.Array.data[3]
+      value: 
+      objectReference: {fileID: 114288, guid: e021863019ffd4ffeb25026f69b57014, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 150502}

@@ -6,7 +6,7 @@ using System.Collections.Generic;
 namespace FloppyA.Music {
 
 	public enum MusicContext {
-		LowAction, HighAction, Conversation
+		BabyContext, KidContext, AdultContext, ElderlyContext
 	}
 
 	[System.Serializable]

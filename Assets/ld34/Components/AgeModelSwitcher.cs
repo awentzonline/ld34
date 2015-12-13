@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using FloppyA.Music;
 
 public class AgeModelSwitcher : MonoBehaviour {
 	public Transform modelHolster;
@@ -52,5 +53,7 @@ public class AgeModelSwitcher : MonoBehaviour {
 		}
 		currentObj = newObj;
 		modelIndex = newIndex;
+		// why not cram this in here too?
+		ContextualMusicMixer.current.SetIntensity ((MusicContext)modelIndex);
 	}
 }
