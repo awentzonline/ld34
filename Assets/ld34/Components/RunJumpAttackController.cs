@@ -19,7 +19,6 @@ public class RunJumpAttackController : MonoBehaviour {
 	void FixedUpdate () {
 		rigidbody.AddForce (transform.forward * acceleration);
 		Vector3 velocity = rigidbody.velocity;
-		animator.SetFloat ("Forward", velocity.z);
 		if (Input.GetKeyDown (KeyCode.Space)) {	
 			velocity.y = jumpVelocity;
 			animator.SetTrigger ("Jump");
@@ -33,6 +32,7 @@ public class RunJumpAttackController : MonoBehaviour {
 			animator.SetBool ("Punching", false);
 		}
 		velocity.z = Mathf.Clamp(velocity.z,  -maxVelocityZ, maxVelocityZ);
+		animator.SetFloat ("Forward", velocity.z / maxVelocityZ);
 		rigidbody.velocity = velocity;
 	}
 }

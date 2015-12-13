@@ -1114,7 +1114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   throwThing: {fileID: 172720, guid: 5fbef6d03d3b84a3cb4ca255e3f9c185, type: 2}
-  throwVelocity: 10
+  throwVelocity: 13
   throwOrigin: {fileID: 452176}
 --- !u!136 &13627412
 CapsuleCollider:
@@ -1376,7 +1376,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: throwVelocity
-      value: 10
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
