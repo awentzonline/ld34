@@ -21,7 +21,7 @@ public class RunJumpAttackController : MonoBehaviour {
 		Vector3 velocity = rigidbody.velocity;
 		animator.SetFloat ("Forward", velocity.z);
 		if (Input.GetKeyDown (KeyCode.Space)) {	
-			velocity.y += jumpVelocity;
+			velocity.y = jumpVelocity;
 			animator.SetTrigger ("Jump");
 			if (jumpSound) {
 				audioSource.PlayOneShot (jumpSound);
