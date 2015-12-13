@@ -170,7 +170,49 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 7
+--- !u!1001 &139885743
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 5.90999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .730000019
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: .540000021
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.803728282
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .220282659
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -.146084517
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .533062696
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &435805998
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,7 +278,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Generational Violence
+  m_Text: Society, Man
 --- !u!222 &435806001
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -412,7 +454,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play
+  m_Text: '"Play"'
 --- !u!222 &470251084
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -495,7 +537,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 8
 --- !u!1 &962186924
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,7 +577,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 11
 --- !u!1001 &1118872464
 Prefab:
   m_ObjectHideFlags: 0
@@ -648,6 +690,98 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13c3d65e2ac1b425ea5a1ea765ec0236, type: 3}
   m_IsPrefabParent: 0
+--- !u!1001 &1324440253
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6.31400013
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .519999981
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: .405000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.890187442
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .410089523
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .0835133567
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -.180051595
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 189652, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_Name
+      value: SpinngBrickOfCash (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1509302404
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 5.90999985
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.36500001
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: .540000021
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 189652, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_Name
+      value: SpinngBrickOfCash (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1534747030
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,7 +813,7 @@ RectTransform:
   - {fileID: 435805999}
   - {fileID: 448727202}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 9
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -739,6 +873,98 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
+--- !u!1001 &1746847436
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 5.52400017
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.32099998
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: .405000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.890187442
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .410089523
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .0835133567
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -.180051595
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 189652, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_Name
+      value: SpinngBrickOfCash (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1777385844
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6.70699978
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.36500001
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: .540000021
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.697947502
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.568567455
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .113462798
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .420388699
+      objectReference: {fileID: 0}
+    - target: {fileID: 482224, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 189652, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+      propertyPath: m_Name
+      value: SpinngBrickOfCash (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 2bf582bd4e53e4456aa2790a6fd6cc6f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &2011604219
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,7 +1038,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 10
 --- !u!1 &2110716933 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100008, guid: 13c3d65e2ac1b425ea5a1ea765ec0236, type: 3}

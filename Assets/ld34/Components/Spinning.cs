@@ -6,6 +6,6 @@ public class Spinning : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		transform.localEulerAngles += spinRate * Time.deltaTime;
+		transform.Rotate(spinRate * Time.deltaTime);
 	}
 }
