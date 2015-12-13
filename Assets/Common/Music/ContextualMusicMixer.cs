@@ -25,13 +25,13 @@ namespace FloppyA.Music {
 
 		void Awake() {
 			current = this;
-		}
-
-		void Start() {
 			configMap = new Dictionary<MusicContext, MusicContextConfig> ();
 			foreach (MusicContextConfig config in contextConfigs) {
 				configMap[config.musicContext] = config;
 			}
+		}
+
+		void Start() {
 			SetIntensity (defaultContext);
 		}
 
