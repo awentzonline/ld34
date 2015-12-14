@@ -1159,6 +1159,7 @@ MonoBehaviour:
   maxVelocityZ: 7
   acceleration: 8
   jumpVelocity: 6
+  attackSpeedRatio: 2
   jumpSound: {fileID: 8300000, guid: 665bd3201c60141b688383993f1cbc07, type: 3}
 --- !u!114 &11483298
 MonoBehaviour:
@@ -1540,6 +1541,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: attackSpeedRatio
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

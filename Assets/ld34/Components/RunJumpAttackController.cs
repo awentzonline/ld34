@@ -5,6 +5,7 @@ public class RunJumpAttackController : MonoBehaviour {
 	public float maxVelocityZ = 5f;
 	public float acceleration = 5f;
 	public float jumpVelocity = 2f;
+	public float attackSpeedRatio = 1f;
 	public AudioClip jumpSound;
 	Rigidbody rigidbody;
 	Animator animator;
@@ -14,6 +15,7 @@ public class RunJumpAttackController : MonoBehaviour {
 		rigidbody = GetComponentInParent<Rigidbody> ();
 		animator = GetComponentInChildren<Animator> ();
 		audioSource = GetComponentInParent<AudioSource> ();
+		animator.SetFloat ("Age", attackSpeedRatio);
 	}
 	
 	void FixedUpdate () {

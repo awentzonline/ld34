@@ -677,6 +677,7 @@ ModelImporter:
     7400006: Run
     7400008: Jump
     7400010: Punch
+    7400012: Die
     9500000: //RootNode
     13700000: MakeHumans_Body
     13700002: MakeHumans_HighPolyEyes
@@ -715,6 +716,106 @@ ModelImporter:
       takeName: Default Take
       firstFrame: 0
       lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: baby0
+        weight: 1
+      - path: baby0/hips
+        weight: 1
+      - path: baby0/hips/spine
+        weight: 1
+      - path: baby0/hips/spine/chest
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_L
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_L/upper_arm_L
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_L/upper_arm_L/forearm_L/hand_L/f_index_01_L
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_L/upper_arm_L/forearm_L/hand_L/f_ring_01_L
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_L/upper_arm_L/forearm_L/hand_L/thumb_02_L
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_L/upper_arm_L/forearm_L/hand_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_R
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_R/upper_arm_R
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_R/upper_arm_R/forearm_R/hand_R/f_index_01_R
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_R/upper_arm_R/forearm_R/hand_R/f_ring_01_R
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_R/upper_arm_R/forearm_R/hand_R/thumb_02_R
+        weight: 1
+      - path: baby0/hips/spine/chest/clavicle_R/upper_arm_R/forearm_R/hand_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: baby0/hips/spine/chest/neck
+        weight: 1
+      - path: baby0/hips/spine/chest/neck/head
+        weight: 1
+      - path: baby0/hips/spine/chest/neck/head/eye_L
+        weight: 1
+      - path: baby0/hips/spine/chest/neck/head/eye_R
+        weight: 1
+      - path: baby0/hips/spine/chest/neck/head/jaw
+        weight: 1
+      - path: baby0/hips/thigh_L
+        weight: 1
+      - path: baby0/hips/thigh_L/shin_L
+        weight: 1
+      - path: baby0/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: baby0/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: baby0/hips/thigh_R
+        weight: 1
+      - path: baby0/hips/thigh_R/shin_R
+        weight: 1
+      - path: baby0/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: baby0/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: baby0_Body
+        weight: 0
+      - path: baby0_Low-Poly
+        weight: 0
+      - path: baby0_short01
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Die
+      takeName: Die
+      firstFrame: -1
+      lastFrame: 11
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1033,7 +1134,7 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: .478005856
+      - time: .573825479
         functionName: AttackEvent
         data: 
         objectReferenceParameter: {instanceID: 0}
