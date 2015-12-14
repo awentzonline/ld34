@@ -10,7 +10,6 @@ GameObject:
   - 224: {fileID: 22476568}
   - 223: {fileID: 22321486}
   - 114: {fileID: 11455338}
-  - 114: {fileID: 11437982}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -32,6 +31,7 @@ GameObject:
   - 114: {fileID: 11429256}
   - 114: {fileID: 11490822}
   - 54: {fileID: 5486798}
+  - 114: {fileID: 11472166}
   m_Layer: 8
   m_Name: ShootableHazard
   m_TagString: Untagged
@@ -138,7 +138,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 145264}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: .100000001
   m_Drag: 0
   m_AngularDrag: .0500000007
   m_UseGravity: 1
@@ -191,22 +191,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fxType: 1
   damageAmountRatio: 1
---- !u!114 &11437982
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 143008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
 --- !u!114 &11444360
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -253,6 +237,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67e644be246c04f20ad0b2316207693b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11472166
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 145264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e84bd91984c9e48df8997d31bedf23c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactSound: {fileID: 8300000, guid: a246e8828790f4e8e85fbb5bac6dd3d3, type: 3}
 --- !u!114 &11490822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -277,7 +273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9499055d675cb472e8664a592340a40e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 1000
 --- !u!136 &13686384
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -366,7 +362,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: maxHealth
-      value: 100
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Mass
+      value: .100000001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

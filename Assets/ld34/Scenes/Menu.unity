@@ -244,7 +244,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -33.2000008, y: 6.9000001}
+  m_AnchoredPosition: {x: -63, y: -62}
   m_SizeDelta: {x: 300, y: 200}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &435806000
@@ -318,7 +318,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 34.2999992, y: -16.2999992}
+  m_AnchoredPosition: {x: -1, y: -52}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &448727203
@@ -551,7 +551,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 493956, guid: e810616c57dbc41b08c40d67fcce89f1, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -.389999986
+      value: -.0700000003
       objectReference: {fileID: 0}
     - target: {fileID: 493956, guid: e810616c57dbc41b08c40d67fcce89f1, type: 2}
       propertyPath: m_LocalPosition.z
@@ -732,6 +732,10 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13c3d65e2ac1b425ea5a1ea765ec0236, type: 3}
   m_IsPrefabParent: 0
+--- !u!4 &1280644027 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400314, guid: 13c3d65e2ac1b425ea5a1ea765ec0236, type: 3}
+  m_PrefabInternal: {fileID: 1280644026}
 --- !u!1 &1289311154
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,6 +1245,20 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100008, guid: 13c3d65e2ac1b425ea5a1ea765ec0236, type: 3}
   m_PrefabInternal: {fileID: 1280644026}
+--- !u!114 &2110716934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110716933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6793b169dc51e4c5296fb2abd297415a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  throwThing: {fileID: 172720, guid: 8f1ca4d23f8104331bd429dd7a4858ed, type: 2}
+  throwVelocity: 3
+  throwOrigin: {fileID: 1280644027}
 --- !u!114 &2110716936
 MonoBehaviour:
   m_ObjectHideFlags: 0
