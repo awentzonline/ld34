@@ -1146,6 +1146,7 @@ MonoBehaviour:
   throwThing: {fileID: 172720, guid: 5fbef6d03d3b84a3cb4ca255e3f9c185, type: 2}
   throwVelocity: 13
   throwOrigin: {fileID: 402850}
+  healthCost: 2
 --- !u!136 &13618586
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -1477,6 +1478,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: attackSpeedRatio
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: healthCost
       value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -6,6 +6,7 @@ namespace FloppyA.Damage {
 
 	public class Health : MonoBehaviour {
 		public float maxHealth = 100.0f;
+		public bool capMax = true;
 		float health = 0.0f;
 		bool hasDied = false;
 
@@ -26,7 +27,9 @@ namespace FloppyA.Damage {
 		public void Heal(float amount) {
 			if (!hasDied) {
 				health += amount;
-				health = Mathf.Min (maxHealth, health);
+				if (capMax) {
+					health = Mathf.Min (maxHealth, health);
+				}
 			}
 		}
 
