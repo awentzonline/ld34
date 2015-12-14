@@ -22,7 +22,7 @@ public class RunJumpAttackController : MonoBehaviour {
 		rigidbody.AddForce (transform.forward * acceleration);
 		Vector3 velocity = rigidbody.velocity;
 		if (Input.GetKeyDown (KeyCode.Space)) {
-			if (Physics.Raycast(transform.position, -transform.up, 0.1f)) {
+			if (Physics.Raycast(transform.position, -transform.up, 0.2f)) {
 				velocity.y = jumpVelocity;
 				animator.SetTrigger ("Jump");
 				if (jumpSound) {
