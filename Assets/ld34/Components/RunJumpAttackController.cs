@@ -21,8 +21,8 @@ public class RunJumpAttackController : MonoBehaviour {
 	void FixedUpdate () {
 		rigidbody.AddForce (transform.forward * acceleration);
 		Vector3 velocity = rigidbody.velocity;
-		if (Input.GetKeyDown (KeyCode.Space)) {
-			if (Physics.Raycast(transform.position, -transform.up, 0.2f)) {
+		if (Input.GetKey (KeyCode.Space)) {
+			if (Physics.Raycast(transform.position, -transform.up, 0.1f)) {
 				velocity.y = jumpVelocity;
 				animator.SetTrigger ("Jump");
 				if (jumpSound) {
@@ -30,7 +30,7 @@ public class RunJumpAttackController : MonoBehaviour {
 				}
 			}
 		}
-		if (Input.GetMouseButtonDown(0)) {
+		if (Input.GetMouseButton(0)) {
 			animator.SetBool ("Punching", true);
 		} else {
 			animator.SetBool ("Punching", false);
